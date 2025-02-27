@@ -10,6 +10,7 @@ def index(request):
     return render(request, 'core/index.html',{
         'categories' : categories,
         'items' : items,
+        
     })
 
 def contact(request):
